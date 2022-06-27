@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
   menuItem.forEach((item) => {
     item.addEventListener("click", () => {
       hamburger.classList.toggle("hamburger-active");
-      menu.classList.toggle("menu active");
+      menu.classList.toggle("menu-active");
     });
   });
 });
